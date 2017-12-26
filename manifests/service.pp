@@ -13,3 +13,4 @@ class ntp::service (
     hasstatus  => $service_hasstatus,
     hasrestart => $service_hasrestart,
 }
+}
