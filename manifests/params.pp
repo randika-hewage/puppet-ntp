@@ -21,3 +21,4 @@ class ntp::params {
   'Debian' => 'ntp',
   default => fail("This ${facts['os']['name']}  not supported by this module"),
 }
+}
