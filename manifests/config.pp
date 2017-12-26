@@ -10,3 +10,4 @@ file { "/etc/${config_name}":
   mode => $config_file_mode,
   content => template("${module_name}/ntp.conf.erb")
 }
+}
